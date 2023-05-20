@@ -24,12 +24,9 @@ public class brokenheartsView {
             heartsButtons[i] = new Button(BROKENHEART);
             heartsButtons[i].setFont(new Font("Arial", 40));
 
-            //make text in button as big as the button
-            heartsButtons[i].setMinSize(100, 100);
 
-            //make button and Heart bigger
+            heartsButtons[i].setMinSize(100, 100);
             heartsButtons[i].setStyle("-fx-padding: 10px;");
-            //center text in button
             heartsButtons[i].setAlignment(Pos.CENTER);
         }
 
